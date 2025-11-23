@@ -1,5 +1,8 @@
 <template>
 	<view class="content">
+			<view class="user-info">
+					<text class="user-name">张梓洋-202311000453-计工本2301</text>
+				</view>
 		<view class="uni-list">
 			<view class="uni-list-cell" hover-class="uni-list-cell-hover" v-for="(item,index) in news" :key="index" @tap="openinfo" data-newsid="item.post_id">
 				<view class="uni-media-list">
@@ -52,4 +55,5 @@
 <style>
 .uni-media-list-body{height:auto;}
 ,.uni-media-list-text-top{line-height: 1.6em;}
+
 </style>
